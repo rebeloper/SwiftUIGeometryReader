@@ -13,6 +13,8 @@
 		C9FF37862345F1C200888EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FF37852345F1C200888EEA /* Assets.xcassets */; };
 		C9FF37892345F1C200888EEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FF37882345F1C200888EEA /* Preview Assets.xcassets */; };
 		C9FF378C2345F1C200888EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FF378A2345F1C200888EEA /* LaunchScreen.storyboard */; };
+		C9FF37952345F1F900888EEA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF37932345F1F800888EEA /* CardView.swift */; };
+		C9FF37962345F1F900888EEA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF37942345F1F900888EEA /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C9FF37882345F1C200888EEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FF378B2345F1C200888EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9FF378D2345F1C200888EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FF37932345F1F800888EEA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C9FF37942345F1F900888EEA /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C9FF377F2345F1C100888EEA /* AppDelegate.swift */,
 				C9FF37812345F1C100888EEA /* SceneDelegate.swift */,
 				C9FF37832345F1C100888EEA /* ContentView.swift */,
+				C9FF37932345F1F800888EEA /* CardView.swift */,
+				C9FF37942345F1F900888EEA /* TabBar.swift */,
 				C9FF37852345F1C200888EEA /* Assets.xcassets */,
 				C9FF378A2345F1C200888EEA /* LaunchScreen.storyboard */,
 				C9FF378D2345F1C200888EEA /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				C9FF37802345F1C100888EEA /* AppDelegate.swift in Sources */,
 				C9FF37822345F1C100888EEA /* SceneDelegate.swift in Sources */,
+				C9FF37952345F1F900888EEA /* CardView.swift in Sources */,
 				C9FF37842345F1C100888EEA /* ContentView.swift in Sources */,
+				C9FF37962345F1F900888EEA /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
